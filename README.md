@@ -2,7 +2,7 @@
 
 The repository for the introductory Django project, created by the [Django community](https://www.djangoproject.com/start/), mainteined by Andresa Valério, built with :heart: and Python.
 
-This source code has being the base to presentations on @pinio and Django girls.
+This source code has being the base to presentations on [@pinio](https://github.com/pinio) and Django girls.
 
 ## How to run
 
