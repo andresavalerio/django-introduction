@@ -75,7 +75,10 @@ class QuestionDetailViewTests(TestCase):
 
     def test_past_question(self):
         """Detail view questions with pub_date in past are displayed."""
-        past_question = create_question(question_text="Past Question.", days=-5)
+        past_question = create_question(
+            question_text="Past Question.",
+            days=-5
+        )
         url = reverse("polls:detail", args=(past_question.id,))
         response = self.client.get(url)
         self.assertContains(response, past_question.question_text)
